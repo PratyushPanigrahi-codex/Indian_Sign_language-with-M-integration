@@ -20,3 +20,13 @@ Thumbs.db
 
 # Environment variables & secrets
 .env
+
+# Datasets and generated numpy archives (share via Drive/cloud)
+data/raw/alphabets/
+data/processed/alphabets/
+models/user_profiles/
+*.npy
+
+# Compiled or fine-tuned model checkpoints (keep base models tracked)
+models/*_finetuned.h5
+models/user_*.h5
